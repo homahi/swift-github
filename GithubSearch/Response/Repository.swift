@@ -14,7 +14,7 @@ struct Repository : Decodable{
     let fullName: String
     let owner: User
     
-    enum CodeingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         case id
         case name
         case fullName = "full_name"

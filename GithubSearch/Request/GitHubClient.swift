@@ -34,6 +34,8 @@ class GitHubClient {
                 } catch {
                     completion(Result(error: .responseParseError(error)))
                 }
+            default:
+                fatalError("invalid response combination \(data), \(response), \(error)")
             }
         }
         
