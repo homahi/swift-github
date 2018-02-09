@@ -12,6 +12,7 @@
 		8F424E8A202D820F0010555F /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F424E89202D820F0010555F /* Repository.swift */; };
 		8F424E8C202D82E20010555F /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F424E8B202D82E20010555F /* SearchResponse.swift */; };
 		8F424E8F202D83F60010555F /* GitHubClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F424E8E202D83F60010555F /* GitHubClientError.swift */; };
+		8F424E91202D84B90010555F /* GitHubAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F424E90202D84B90010555F /* GitHubAPIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		8F424E89202D820F0010555F /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		8F424E8B202D82E20010555F /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		8F424E8E202D83F60010555F /* GitHubClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubClientError.swift; sourceTree = "<group>"; };
+		8F424E90202D84B90010555F /* GitHubAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				8F424E8E202D83F60010555F /* GitHubClientError.swift */,
+				8F424E90202D84B90010555F /* GitHubAPIError.swift */,
 			);
 			path = Error;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				8F424E88202D81EF0010555F /* User.swift in Sources */,
 				8F424E80202D81240010555F /* main.swift in Sources */,
 				8F424E8A202D820F0010555F /* Repository.swift in Sources */,
+				8F424E91202D84B90010555F /* GitHubAPIError.swift in Sources */,
 				8F424E8F202D83F60010555F /* GitHubClientError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
