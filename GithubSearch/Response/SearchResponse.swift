@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Searchresponse<Item : Decodable> : Decodable {
+struct SearchResponse<Item : Decodable> : Decodable {
     let totalCount:Int
     let items: [Item]
     
